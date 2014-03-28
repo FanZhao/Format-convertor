@@ -3,6 +3,7 @@ use strict;
 use warnings;
 my $usage = "please use command perl convert.pl *.sff";
 die $usage unless @ARGV;
+## Fan Zhao, Pombert Lab, IIT 2014
  ###hash pool of  score conversion(Phred to Sanger 33+, code in ASCII)
 
 my %phredQ = ('0'=>'!','1'=>'"','2'=>'#',
